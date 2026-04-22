@@ -1,13 +1,14 @@
 [project]
 name = "matchmaking_service"
 version = "0.1.0"
-description = "Matchmaking service for competative online multiplayer games."
+description = "Matchmaking service for competitive online multiplayer games."
 authors = [{ name = "An Spiteri" }]
 readme = "README.md"
 requires-python = ">=3.10"
 
 dependencies = [
-	"fastapi[standard]"
+	"fastapi[standard]",
+	"uvicorn[standard]"
 ]
 
 [project.optional-dependencies]
@@ -20,4 +21,4 @@ requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 
 [project.scripts]
-matchmaking-service = "matchmaking_service.api:main"
+matchmaking-service = "matchmaking_service.run:main"

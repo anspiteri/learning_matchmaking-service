@@ -1,4 +1,7 @@
-import fastapi
+from fastapi import FastAPI
 
-def main():
-    print("Program running..")
+app = FastAPI()
+
+@app.get('/')
+async def root():
+    return {"message": "Backend service running."}
