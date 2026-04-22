@@ -20,4 +20,4 @@ requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 
 [project.scripts]
-matchmaking-service = "matchmaking_service.main:main"
+matchmaking-service = "matchmaking_service.api:main"
