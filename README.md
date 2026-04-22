@@ -19,6 +19,7 @@ learning_matchmaking-service/
 ├── tests/
 ├── .gitignore
 ├── LICENSE
+├── README.md
 └── pyproject.toml
 ```
 
