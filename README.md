@@ -1,5 +1,12 @@
-# learning_matchmaking-service
-An online match-making service for matching players in competitive games.
+# Matchmaking Service
+A conceptual model of an online service for matching players in competitive games.
+Built with the purpose of exploring an intersection of two passions: video games & backend systems. 
+
+Without overloading on complexity, I've decided to build this project with the following constraints:
+- Mocking of player / client requests using python scripts
+- API without AUTH
+- Simple in-memory models for tracking game state
+- Simulated matches
 
 <br>
 
